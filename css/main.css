@@ -156,16 +156,22 @@
     }
 
     nav {
+        max-width: 100%;
+        overflow-x: hidden;
         width: 100%;
         background-color: #7DE8DA;
     }
 
     nav ul {
+        max-width: 100%;
+        overflow-x: hidden;
         display: flex;
         flex-direction: row;
     }
     
     .navlink {
+        max-width: 100%;
+        overflow-x: hidden;
         text-decoration: none;
         color: black;
         padding: 3vh;
@@ -173,10 +179,14 @@
     }
 
     .navlink:hover {
+        max-width: 100%;
+        overflow-x: hidden;
         animation: navlinks 1s forwards;
     }
 
     .navlinkmain {
+        max-width: 100%;
+        overflow-x: hidden;
         text-decoration: none;
         color: white;
         padding: 3vh;
@@ -184,24 +194,34 @@
     }
 
     .navlinkmain:hover {
+        max-width: 100%;
+        overflow-x: hidden;
         animation: navlinks 1s forwards;
     }
     
     .navli {
+        max-width: 100%;
+        overflow-x: hidden;
         list-style-type: none;
         color: black;
     }
 
     .navlimain {
+        max-width: 100%;
+        overflow-x: hidden;
         list-style-type: none;
         color: white;
     }
 
     .bgdiv {
+        max-width: 100%;
+        overflow-x: hidden;
         height: 10vh;
     }
 
     .bgmain {
+        max-width: 100%;
+        overflow-x: hidden;
         width: 100%;
         height: 50vh;
         object-fit: cover;
@@ -209,6 +229,8 @@
     }
 
     .bgmain1 {
+        max-width: 100%;
+        overflow-x: hidden;
         width: 100%;
         height: 50vh;
         object-fit: cover;
@@ -216,6 +238,8 @@
     }
 
     .main {
+        max-width: 100%;
+        overflow-x: hidden;
         margin-top: 50vh;
         text-align: center;
         display: flex;
@@ -224,11 +248,15 @@
     }
 
     .specialdatesdiv {
+        max-width: 100%;
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
     }
 
     .specialdates {
+        max-width: 100%;
+        overflow-x: hidden;
         width: 75vh;
         background-color: white;
         border: 2px solid black;
@@ -237,15 +265,21 @@
     }
 
     hr {
+        max-width: 100%;
+        overflow-x: hidden;
         margin: 0px 20px 0px 20px;
     }
 
     .specialdatesli {
+        max-width: 100%;
+        overflow-x: hidden;
         list-style-type: decimal;
         margin-bottom: 4vh;
     }
 
     .specialdatesul {
+        max-width: 100%;
+        overflow-x: hidden;
         margin-left: 5vh;
         margin-top: 5vh;
         margin-bottom: 5vh;
