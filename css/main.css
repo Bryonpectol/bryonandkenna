@@ -26,11 +26,15 @@
 @media only screen and (min-width: 601px) {
 
     body {
+        max-width: 100%;
+        overflow-x: hidden;
         background-color: lightslategray;
     }
 
     .navdesktop {
         width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
         background-color: #7DE8DA;
     }
 
@@ -40,22 +44,38 @@
     }
 
     nav ul {
+        max-width: 100%;
+        overflow-x: hidden;
         display: flex;
         flex-direction: row;
     }
     
     .navlink {
+        max-width: 100%;
+        overflow-x: hidden;
         text-decoration: none;
         color: black;
         padding: 3vh;
         background-color: #7DBDE8;
     }
 
+    .mainh1 {
+        max-width: 100%;
+        overflow-x: hidden;
+        text-align: center;
+        margin-bottom: 5vh;
+        color: #7DE8DA;
+    }
+
     .navlink:hover {
+        max-width: 100%;
+        overflow-x: hidden;
         animation: navlinks 1s forwards;
     }
 
     .navlinkmain {
+        max-width: 100%;
+        overflow-x: hidden;
         text-decoration: none;
         color: white;
         padding: 3vh;
@@ -63,20 +83,27 @@
     }
 
     .navlinkmain:hover {
+        max-width: 100%;
+        overflow-x: hidden;
         animation: navlinks 1s forwards;
     }
     
     .navli {
+        max-width: 100%;
+        overflow-x: hidden;
         list-style-type: none;
         color: black;
     }
 
     .navlimain {
+        max-width: 100%;
+        overflow-x: hidden;
         list-style-type: none;
         color: white;
     }
 
     .bgdiv {
+        
         height: 10vh;
     }
 
@@ -177,6 +204,12 @@
         max-width: 100%;
         overflow-x: hidden;
         background-color: lightslategray;
+    }
+
+    .mainh1 {
+        text-align: center;
+        margin-bottom: 5vh;
+        color: #7DE8DA;
     }
 
     .navdesktop {
