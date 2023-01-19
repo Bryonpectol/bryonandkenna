@@ -19,10 +19,10 @@
 
 @keyframes memshover {
     0% {
-        width: 200px;
+        width: 300px;
     }
     100% {
-        width: 400px;
+        width: 450px;
     }
 }
 
@@ -146,10 +146,11 @@
 
     .holder {
         display: flex;
+        margin-bottom: 5vh;
     }
 
     .memsimg {
-        width: 200px;
+        width: 300px;
         padding-right: 4vh;
     }
 
@@ -375,11 +376,13 @@
 
     .holder {
         display: flex;
+        margin-bottom: 5vh;
     }
 
     .memsimg {
-        width: 200px;
+        width: 150px;
         padding-right: 4vh;
+        object-fit: contain;
     }
 
     .specialdatesdiv {
