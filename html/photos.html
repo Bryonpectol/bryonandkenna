@@ -12,7 +12,7 @@
     <body>
 
         <header>
-            <nav>
+            <nav class="navdesktop">
                 <ul>
                     <a href="https://bryonandkenna.com/" class="navlinkmain"><li class="navlimain">Bryon and Kenna</li></a>
                     <a href="/html/timeline.html" class="navlink"><li class="navli">Timeline</li></a>
@@ -20,6 +20,11 @@
                     <a href="/html/photos.html" class="navlink"><li class="navli">Photos</li></a>
                     <a href="/html/dategenerator.html" class="navlink"><li class="navli">Random Date Generator</li></a>
                 </ul>
+            </nav>
+
+            <nav id="navid" class="navmobile">
+                
+                <button id="hamBTN" onclick="Hamburger()" class="hambtn"><img id="iconimg" class="hamicon" src="/images/icons/ham-and-cheese.png" /></button>
             </nav>
         </header>
 
@@ -35,7 +40,7 @@
 
         </footer>
         
-        <script src="main.js"></script>
+        <script src="/js/main.js"></script>
         <script src="/js/photos.js"></script>
     </body>
 </html>
