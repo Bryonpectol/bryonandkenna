@@ -364,4 +364,23 @@
         margin: 5vh;
     }
 
+    .generatordiv {
+        text-align: center;
+    }
+
+    .generatorbtn {
+        padding: 5vh;
+        border-radius: 50px;
+        background-color: #8AB0FF;
+    }
+
+    .generatorbtn:hover {
+        animation: navlinks 1s forwards;
+        cursor: pointer;
+    }
+
+    #generatorp {
+        margin-top: 5vh;
+    }
+
 }
