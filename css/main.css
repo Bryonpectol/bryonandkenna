@@ -200,28 +200,28 @@
     }
     
     .navli {
-        max-width: 100%;
-        overflow-x: hidden;
+        /* max-width: 100%; */
+        /* overflow-x: hidden; */
         list-style-type: none;
         color: black;
     }
 
     .navlimain {
-        max-width: 100%;
-        overflow-x: hidden;
+        /* max-width: 100%; */
+        /* overflow-x: hidden; */
         list-style-type: none;
         color: white;
     }
 
     .bgdiv {
-        max-width: 100%;
-        overflow-x: hidden;
+        /* max-width: 100%; */
+        /* overflow-x: hidden; */
         height: 10vh;
     }
 
     .bgmain {
-        max-width: 100%;
-        overflow-x: hidden;
+        /* max-width: 100%; */
+        /* overflow-x: hidden; */
         width: 100%;
         height: 50vh;
         object-fit: cover;
@@ -229,8 +229,8 @@
     }
 
     .bgmain1 {
-        max-width: 100%;
-        overflow-x: hidden;
+        /* max-width: 100%; */
+        /* overflow-x: hidden; */
         width: 100%;
         height: 50vh;
         object-fit: cover;
@@ -283,6 +283,26 @@
         margin-left: 5vh;
         margin-top: 5vh;
         margin-bottom: 5vh;
+    }
+
+    #photosdiv {
+        max-width: 100%;
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+    .photoimgs {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 2vh;
+        width: 150px;
+    }
+
+    .h1photos {
+        max-width: 100%;
+        overflow-x: hidden;
+        text-align: center;
+        margin: 5vh;
     }
 
 }
