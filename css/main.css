@@ -17,6 +17,15 @@
     }
 }
 
+@keyframes memshover {
+    0% {
+        width: 200px;
+    }
+    100% {
+        width: 400px;
+    }
+}
+
 
 
 
@@ -127,6 +136,25 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .memoriesdiv {
+        margin-top: 45vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .holder {
+        display: flex;
+    }
+
+    .memsimg {
+        width: 200px;
+        padding-right: 4vh;
+    }
+
+    .memsimg:hover {
+        animation: memshover 1s forwards;
     }
 
     .specialdatesdiv {
@@ -337,6 +365,21 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .memoriesdiv {
+        margin-top: 45vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .holder {
+        display: flex;
+    }
+
+    .memsimg {
+        width: 200px;
+        padding-right: 4vh;
     }
 
     .specialdatesdiv {
