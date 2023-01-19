@@ -11,7 +11,13 @@
     </head>
     <body>
 
-        <header>
+        <form id="form">
+            <input type="text" id="input" />
+        </form>
+
+        <button id="submit" onclick="pass()" id="submit">Submit</button>
+
+        <header id="header">
             <nav class="navdesktop">
                 <ul>
                     <a href="https://bryonandkenna.com/" class="navlinkmain"><li class="navlimain">Bryon and Kenna</li></a>
@@ -32,7 +38,7 @@
             </div>
         </header>
 
-        <main class="main">
+        <main id="main" class="main">
             <div class="specialdatesdiv">
             <div class="specialdates">
                 <h1>Important Dates</h1>
@@ -60,10 +66,11 @@
             </div>
         </main>
 
-        <footer>
+        <footer id="footer">
 
         </footer>
         
+        <script src="/js/password.js"></script>
         <script src="/js/main.js"></script>
     </body>
 </html>
