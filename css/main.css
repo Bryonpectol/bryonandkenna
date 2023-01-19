@@ -103,7 +103,7 @@
     }
 
     .specialdates {
-        width: 100vh;
+        width: 150vh;
         background-color: white;
         border: 2px solid black;
         box-shadow: #8AFFCF 5px 5px 10px;
@@ -213,7 +213,7 @@
     }
 
     .specialdates {
-        width: 100vh;
+        width: 75vh;
         background-color: white;
         border: 2px solid black;
         box-shadow: #8AFFCF 5px 5px 10px;
