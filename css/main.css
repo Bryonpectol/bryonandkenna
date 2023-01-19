@@ -125,6 +125,20 @@
         margin-bottom: 5vh;
     }
 
+    #photosdiv {
+        text-align: center;
+    }
+
+    .photoimgs {
+        margin: 2vh;
+        width: 150px;
+    }
+
+    .h1photos {
+        text-align: center;
+        margin: 5vh;
+    }
+
 }
 
 
@@ -136,6 +150,7 @@
 @media only screen and (max-width: 600px) {
 
     body {
+        overflow-x: hidden;
         background-color: lightslategray;
     }
 
