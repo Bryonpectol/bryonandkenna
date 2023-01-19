@@ -34,7 +34,7 @@ function Hamburger() {
     Timeline.textContent = "Timeline";
     Memories.textContent = "Memories";
     Photos.textContent = "Photos";
-    Dates.textContent = "Random Date Generator";
+    Dates.textContent = "Date Generator";
 
     // theDiv.className="mobilelinks";
     Timeline.className="mobilelinks";
@@ -77,7 +77,7 @@ function exit() {
     Timeline.textContent = "Timeline";
     Memories.textContent = "Memories";
     Photos.textContent = "Photos";
-    Dates.textContent = "Random Date Generator";
+    Dates.textContent = "Date Generator";
 
     nav.removeChild(theDiv);
     nav.removeChild(Timeline);
