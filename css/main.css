@@ -190,6 +190,11 @@
         text-align: center;
     }
 
+    .noneli {
+        list-style-type: none;
+        margin-bottom: 4vh;
+    }
+
     .photoimgs {
         margin: 2vh;
         width: 150px;
@@ -251,6 +256,10 @@
         position: fixed;
         display: flex;
         flex-direction: column;
+    }
+
+    .noneli {
+        list-style-type: none;
     }
 
     nav ul {
